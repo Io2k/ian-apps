@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps by Ian</title>
+<meta name="description" content="Apps built on an iPad with Muse: IronBoard, Mana Radar, FocusFlow, and Loops.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0f172a; color: #e2e8f0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; min-height: 100vh; }
+  header { text-align: center; padding: 56px 20px 32px; }
+  header h1 { color: #f59e0b; font-size: 40px; letter-spacing: .04em; }
+  header p { color: #94a3b8; font-size: 17px; margin-top: 10px; }
+  main { max-width: 960px; margin: 0 auto; padding: 0 20px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+  .card { display: block; background: #1e293b; border: 1px solid #334155; border-radius: 16px; padding: 28px 24px; text-decoration: none; color: inherit; transition: border-color .15s, transform .15s; }
+  .card:hover { border-color: #f59e0b; transform: translateY(-2px); }
+  .card .icon { font-size: 34px; }
+  .card h2 { color: #fbbf24; font-size: 24px; margin: 12px 0 8px; }
+  .card p { color: #cbd5e1; font-size: 16px; line-height: 1.6; }
+  .card .tag { display: inline-block; margin-top: 16px; background: #0f172a; border: 1px solid #334155; color: #94a3b8; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; }
+  .card .go { display: block; margin-top: 16px; color: #f59e0b; font-size: 15px; font-weight: 700; }
+  footer { text-align: center; color: #64748b; font-size: 14px; line-height: 1.8; padding: 0 20px 48px; }
+  footer a { color: #94a3b8; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Apps by Ian</h1>
+  <p>Built on an iPad, with Muse. Hosted on Cloudflare Pages.</p>
+</header>
+
+<main>
+  <a class="card" href="https://iron-board.pages.dev">
+    <div class="icon">🏋️</div>
+    <h2>IronBoard</h2>
+    <p>The gym leaderboard. Members log lifts, the TV board ranks them, and owners run giveaways and board ads.</p>
+    <span class="tag">For gyms</span>
+    <span class="go">Open IronBoard &rarr;</span>
+  </a>
+
+  <a class="card" href="https://mana-radar.pages.dev">
+    <div class="icon">✨</div>
+    <h2>Mana Radar</h2>
+    <p>Live Magic: The Gathering player finder. Check in with your handle and format, and see who's nearby within five miles.</p>
+    <span class="tag">For players</span>
+    <span class="go">Open Mana Radar &rarr;</span>
+  </a>
+
+  <a class="card" href="https://focus-flow-timer.pages.dev">
+    <div class="icon">⏱️</div>
+    <h2>FocusFlow</h2>
+    <p>A to-do list with multi-task Pomodoro sessions and focus music, so the work and the timer stay in one place.</p>
+    <span class="tag">For focus</span>
+    <span class="go">Open FocusFlow &rarr;</span>
+  </a>
+
+  <a class="card" href="https://loops2026.netlify.app">
+    <div class="icon">🔁</div>
+    <h2>Loops</h2>
+    <p>Close the loop on your day. Morning priorities and open loops, then an evening debrief that carries forward.</p>
+    <span class="tag">For reflection</span>
+    <span class="go">Open Loops &rarr;</span>
+  </a>
+</main>
+
+<footer>
+  Built on an iPad with Muse, Supabase, GitHub, and Cloudflare.<br>
+  This page auto-deploys from <a href="https://github.com/Io2k/ian-apps">GitHub</a> on every push.
+</footer>
+
+</body>
+</html>
