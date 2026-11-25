@@ -1,7 +1,7 @@
-# ian-apps
+# Applify HQ
 
 Landing page for Ian's apps, deployed on Cloudflare Pages at
-https://ian-apps.pages.dev.
+https://applifyhq.pages.dev.
 
 ## Apps
 
